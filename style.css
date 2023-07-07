@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-self: center;
+}
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.left-logo {
+    font-size: 1.24rem;
+    color: rgb(30, 103, 240);
+}
+.heroleft {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+.leftsection {
+    width: 30%;
+    font-weight: 400;
+    margin: 0 10px;
+}
+.heroleft li{
+    list-style: none;
+
+}
+.heroleft li img {
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.rightsection {
+    width: 30%;
+}
+
+.rightsection img {
+   width: 50%;
+}
+
+.techsect {
+    display: flex;
+    justify-content: center;
+    
+}
+.techsect h2 {
+    align-items: center;
+    font-size: bold;
+    
+}
+.techsect li{
+    list-style: none;
+    margin: 45px;
+    padding: 30px;
+
+}
+.About {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.para {
+    color: rgb(10, 10, 61);
+    height: 200px;
+    
+
+}
+.right-about {
+    height: 100%;
+    width: 55%;
+}
+.right-about span {
+    color: rgb(24, 24, 139);
+    font-weight: bold;
+}
+
+.Portfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 20px;
+}
+.pdesc{
+    margin: 20px;
+    padding: 20px;
+    color: rgb(20, 20, 80);
+}
+.ecomproject {
+    width: 40%;
+    margin-left: 20px;
+}
+.descriptions {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.descriptions h1 p {
+    
+    padding: 40px;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+}
+.footer-down {
+    position: relative;
+    color: rgb(24, 136, 235);
+}
+.footer-down h4 {
+    margin: 50px 50px;
+    padding: 20px;
+}
+.footer-down ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.copyw {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
